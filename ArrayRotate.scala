@@ -1,6 +1,7 @@
 /*
  Given: Array: arr, int: steps
- Rotate arr steps amounts to the right
+ Expected: Rotate arr steps amounts to the right
+ https://github.com/codingforinterviews/practice-problems/tree/master/array_rotate
 */
 
 import org.scalatest.{FunSuite, Matchers}
