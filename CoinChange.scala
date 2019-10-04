@@ -24,5 +24,4 @@ object CoinChange extends App {
         }
         return res
     }
-
 }
