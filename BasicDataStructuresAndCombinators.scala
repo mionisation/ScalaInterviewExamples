@@ -35,6 +35,18 @@ object BasicDataStructuresAndCombinators extends App {
     }
     checkOption(Option(4))
     checkOption(None)
+    // Stack: Use List as mutable.Stack is deprecated
+    var intStack = Stack()
+    class Stack[N] {
+        var stack: List[N] = List()
+        private def pop() {
+
+        }
+        private def push() {
+
+        }
+    }
+
 
     val vList = List(1, 2, 3, 4)
     // map
@@ -56,7 +68,7 @@ object BasicDataStructuresAndCombinators extends App {
     println(flatZip)
     // partition
     
-
+// TODO: https://twitter.github.io/scala_school/collections.html#flatMap
     // find
     // drop and dropWhile
     // foldRight and foldLeft
